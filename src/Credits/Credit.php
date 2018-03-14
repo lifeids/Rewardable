@@ -10,7 +10,7 @@ declare(strict_types=1);
 
 namespace Lifeids\Rewardable\Credits;
 
-use BrianFaust\Eloquent\Presenter\PresentableTrait;
+use Lifeids\Eloquent\Presenter\PresentableTrait;
 use Lifeids\Rewardable\Repositories\CreditRepository;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

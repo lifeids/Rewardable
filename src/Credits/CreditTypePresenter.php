@@ -10,7 +10,7 @@ declare(strict_types=1);
 
 namespace Lifeids\Rewardable\Credits;
 
-use BrianFaust\Eloquent\Presenter\BasePresenter;
+use Lifeids\Eloquent\Presenter\BasePresenter;
 
 class CreditTypePresenter extends BasePresenter
 {

@@ -10,7 +10,7 @@ declare(strict_types=1);
 
 namespace Lifeids\Rewardable\Badges;
 
-use BrianFaust\Eloquent\Presenter\PresentableTrait;
+use Lifeids\Eloquent\Presenter\PresentableTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
