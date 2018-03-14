@@ -1,5 +1,5 @@
 {
-    "name": "laravel/rewardable",
+    "name": "lifeids/rewardable",
     "description": "Credits, Badges and Ranks for Eloquent Models for Laravel 5",
     "keywords": ["laravel", "framework", "rewardable", "Laravel Rewardable"],
     "license": "MIT",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Rewardable\\": "src/"
+            "Lifeids\\Rewardable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Rewardable\\": "tests"
+            "Lifeids\\Tests\\Rewardable\\": "tests"
         }
     },
     "config": {
