@@ -1,0 +1,52 @@
+{
+    "name": "laravel/rewardable",
+    "description": "Credits, Badges and Ranks for Eloquent Models for Laravel 5",
+    "keywords": ["laravel", "framework", "rewardable", "Laravel Rewardable"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Lifeids",
+        "email": "info@lifeids.com",
+        "homepage": "https://brianfaust.me"
+    }],
+    "require": {
+        "php": "^7.1",
+        "illuminate/database": "5.5.* || 5.6.*",
+        "illuminate/support": "5.5.* || 5.6.*",
+        "faustbrian/eloquent-models": "^1.0",
+        "faustbrian/eloquent-presenter": "^1.0",
+        "nesbot/carbon": "^1.22",
+        "spatie/laravel-medialibrary": "^6.6",
+        "spatie/laravel-sluggable": "^2.1"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^5.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrianFaust\\Rewardable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BrianFaust\\Tests\\Rewardable\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Lifeids\\Rewardable\\RewardableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
